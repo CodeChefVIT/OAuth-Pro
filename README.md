@@ -44,7 +44,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 * master: After significant features/bug-fixes are accumulated in development branch we merge it with the master branch.
 
 ## Contribution Practices
-* If you want to work on a particular framework/language and it is not mentioned 
+* If you want to work on a particular framework/language or a particular oauth and it is not mentioned 
  in any of the issues please raise an issue first.
 * Write clear and meaningful commit messages.
 * If you report a bug please provide steps to reproduce the bug.
