@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'facebookOauth',
     'twitterOauth',
     'googleOauth',
+    'spotifyOauth',
 
     #rest framework
 
@@ -47,7 +48,6 @@ INSTALLED_APPS = [
     'allauth',
 
     #allauth
-
     'rest_framework.authtoken',
     'allauth.account',
     'allauth.socialaccount',
@@ -112,11 +112,12 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.TokenAuthentication',
         # for browsable api view usage
         'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.BasicAuthentication'
     ),
 
-    'DEFAULT_PERMISSION_CLASSES': (
-        'rest_framework.permissions.IsAuthenticated',
-    ),
+    # 'DEFAULT_PERMISSION_CLASSES': (
+    #     'rest_framework.permissions.IsAuthenticated',
+    # ),
 }
 
 
