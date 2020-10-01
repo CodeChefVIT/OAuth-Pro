@@ -12,7 +12,8 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "Oauth.settings.local")
 # Create your views here.
 class Login(APIView):
     def get(self, request):
-
+        # The redirect uri has been set to Google
+        # It can be changed to the uri that has been specified while creating the API keys
         redirect_uri = "https://www.google.co.in/"
 
         # State is used to prevent any CSRF attacks. 
