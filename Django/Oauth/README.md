@@ -8,7 +8,8 @@
 
 # Features
 
-- Added google oauth feature with Djanfo REST Framework
+- Added google oauth feature with Django REST Framework
+- Added Spotify OAuth feature with Django Rest Framework
 
 ### Instruction to run 
 
@@ -23,9 +24,12 @@ $ python3 manage.py runserver
 
 - Open 127.0.0.1:8000/google/auth/ in browser
 - Enter the Auth Code received from Google
+- For Spotify OAuth refer 
+[![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square&logo=appveyor)](https://documenter.getpostman.com/view/7941616/TVRecVLo) 
 
 ## Contributor(s)
 - [Harsh Singhal](https://github.com/hsrambo07)
+- [Shreya Chatterjee](https://github.com/Shreya549)
 
 ## License
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
