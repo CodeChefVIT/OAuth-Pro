@@ -34,6 +34,16 @@ $ cd Oauth
 $ pip3 install -r requirements.txt
 $ python3 manage.py runserver
 ```
+
+Go to this url 127.0.0.1:8000/google/auth/
+
+there you have to enter the auth code recieved from google, checkout google docs server side application.
+
+enter the code and congrats the person has been added to the db.
+
+
+- you can also checkout admin panel , 127.0.0.1:8000/admin/
+
 ## License
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
