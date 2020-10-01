@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'linkedinOauth',
     'facebookOauth',
     'twitterOauth',
     'googleOauth',
@@ -56,6 +57,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount.providers.google',
     'allauth.socialaccount.providers.twitter',
     'allauth.socialaccount.providers.facebook',
+    'allauth.socialaccount.providers.linkedin_oauth2',
 
     #django contrib apps
     'django.contrib.admin',
@@ -137,6 +139,20 @@ SOCIALACCOUNT_PROVIDERS = {
         'AUTH_PARAMS': {
             'access_type': 'online',
         }
+    },
+    'linkedin': {
+        'SCOPE': [
+            'r_basicprofile',
+            'r_emailaddress'
+        ],
+        'PROFILE_FIELDS': [
+            'id',
+            'first-name',
+            'last-name',
+            'email-address',
+            'picture-url',
+            'public-profile-url',
+        ]
     }
 }
 
