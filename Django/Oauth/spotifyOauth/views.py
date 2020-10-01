@@ -1,6 +1,5 @@
 from django.shortcuts import render
-from rest_framework import APIView
-from rest_framework.views import Response
+from rest_framework.views import Response, APIView
 import environ, os, requests, json
 import urllib.request
 from django.shortcuts import redirect
@@ -9,7 +8,7 @@ env = environ.Env(
     DEBUG = (bool, False)
 )
 environ.Env.read_env()
-
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "Oauth.settings.local")
 # Create your views here.
 class Login(APIView):
     def get(self, request):
@@ -20,7 +19,6 @@ class Login(APIView):
         # Should be sent from the frontend while calling this endpoint
         # State can be any random string
         state = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-
         params = {
             "client_id" : env('CLIENT_ID'),
             "response_type" : "code",
