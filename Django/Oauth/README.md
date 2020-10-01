@@ -8,7 +8,8 @@
 
 # Features
 
-- Added google oauth feature with Djanfo REST Framework
+- Added github oauth feature with Djanfo REST Framework
+- Code has been tested successfully
 
 ### Instruction to run 
 

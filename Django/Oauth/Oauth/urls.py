@@ -7,5 +7,6 @@ urlpatterns = [
     path('twitter/',include('twitterOauth.urls')),
     path('facebook/',include('facebookOauth.urls')),
     path('linkedin/',include('linkedinOauth.urls')),
+    path('github/',include('githubOauth.urls')),
 
 ]
