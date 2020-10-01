@@ -27,7 +27,7 @@ Install the dependencies and devDependencies and start the server.
 
 ```sh
 git clone https://github.com/CodeChefVIT/OAuth-Pro.git
-$ Django/Oauthh
+$ Django/Oauth
 $ pip3 install -r requirements.txt
 $ python3 manage.py runserver
 ```
