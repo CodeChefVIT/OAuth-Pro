@@ -1,3 +1,4 @@
 node_modules
 congfig
 *.pyc
+db.sqlite
