@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'facebookOauth',
     'twitterOauth',
     'googleOauth',
 
@@ -54,6 +55,7 @@ INSTALLED_APPS = [
     #social_oauth
     'allauth.socialaccount.providers.google',
     'allauth.socialaccount.providers.twitter',
+    'allauth.socialaccount.providers.facebook',
 
     #django contrib apps
     'django.contrib.admin',
