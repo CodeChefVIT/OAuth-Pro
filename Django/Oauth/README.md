@@ -7,8 +7,12 @@
 
 
 # Features
-
+- Added google oauth feature with Djanfo REST Framework
+- Added twitter oauth feature with Djanfo REST Framework
+- Added linkedin oauth feature with Djanfo REST Framework
 - Added github oauth feature with Djanfo REST Framework
+- Added facebook oauth feature with Djanfo REST Framework
+
 - Code has been tested successfully
 
 ### Instruction to run 
