@@ -5,17 +5,6 @@
 > Different types of OAuth for Django applications.
 ---
 
-# Project Screenshots 
-<p align="center">
-<img alt="" src="https://www.linkpicture.com/q/google_oauth.png.png">
-<img alt="" src="https://www.linkpicture.com/q/google_oauth.png1.png">
-<img alt="" src="https://www.linkpicture.com/q/google_oauth.png2.png">
-<img alt="" src="https://www.linkpicture.com/q/google_oauth.png3.png">
-<img alt="" src="https://www.linkpicture.com/q/google_oauth.png4.png">
-<img alt="" src="https://www.linkpicture.com/q/google_oauth.png5.png">
-<img alt="" src="https://www.linkpicture.com/q/google_oauth.png6.png">
-</p>
-
 
 # Features
 
