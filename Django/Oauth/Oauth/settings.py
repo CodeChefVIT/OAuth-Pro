@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'facebookOauth',
     'twitterOauth',
     'googleOauth',
+    'spotifyOauth',
 
     #rest framework
 
