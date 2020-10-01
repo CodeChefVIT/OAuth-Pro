@@ -1,21 +1,21 @@
 <p align="center"><a href="http://www.codechefvit.com" target="_blank"><img src="https://s3.amazonaws.com/codechef_shared/sites/all/themes/abessive/logo-3.png" title="CodeChef-VIT" alt="Codechef-VIT"></a>
 </p>
 
-# Project Title
-> OAuth-Pro
+# OAuth-Pro: Django
+> Different types of OAuth for Django applications.
 ---
-[![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square&logo=appveyor)](INSERT_LINK_FOR_DOCS_HERE) 
-  [![UI ](https://img.shields.io/badge/User%20Interface-Link%20to%20UI-orange?style=flat-square&logo=appveyor)](INSERT_UI_LINK_HERE)
 
-# Project Screenshorts
+# Project Screenshots 
+<p align="center">
+<img alt="" src="https://www.linkpicture.com/q/google_oauth.png.png">
+<img alt="" src="https://www.linkpicture.com/q/google_oauth.png1.png">
+<img alt="" src="https://www.linkpicture.com/q/google_oauth.png2.png">
+<img alt="" src="https://www.linkpicture.com/q/google_oauth.png3.png">
+<img alt="" src="https://www.linkpicture.com/q/google_oauth.png4.png">
+<img alt="" src="https://www.linkpicture.com/q/google_oauth.png5.png">
+<img alt="" src="https://www.linkpicture.com/q/google_oauth.png6.png">
+</p>
 
-[Here](https://www.linkpicture.com/q/google_oauth.png.png)
- [Here][https://www.linkpicture.com/q/google_oauth.png1.png]
-[Here][https://www.linkpicture.com/q/google_oauth.png2.png]
-[Here][https://www.linkpicture.com/q/google_oauth.png3.png]
-[Here][https://www.linkpicture.com/q/google_oauth.png4.png]
-[Here][https://www.linkpicture.com/q/google_oauth.png5.png]
-[Final_results][https://www.linkpicture.com/q/google_oauth.png6.png]
 
 # Features
 
@@ -23,29 +23,22 @@
 
 ### Instruction to run 
 
-Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.
-
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-git clone https://github.com/hsrambo07/OAuth-Pro.git
-$ cd Django
-$ cd Oauth
+git clone https://github.com/CodeChefVIT/OAuth-Pro.git
+$ Django/Oauthh
 $ pip3 install -r requirements.txt
 $ python3 manage.py runserver
 ```
 
-Go to this url 127.0.0.1:8000/google/auth/
+- Open 127.0.0.1:8000/google/auth/ in browser
+- Enter the Auth Code received from Google
 
-there you have to enter the auth code recieved from google, checkout google docs server side application.
-
-enter the code and congrats the person has been added to the db.
-
-
-- you can also checkout admin panel , 127.0.0.1:8000/admin/
+## Contributor(s)
+- [Harsh Singhal](https://github.com/hsrambo07)
 
 ## License
-
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 <p align="center">
