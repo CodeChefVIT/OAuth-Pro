@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'twitterOauth',
     'googleOauth',
 
     #rest framework
@@ -52,6 +53,7 @@ INSTALLED_APPS = [
 
     #social_oauth
     'allauth.socialaccount.providers.google',
+    'allauth.socialaccount.providers.twitter',
 
     #django contrib apps
     'django.contrib.admin',
