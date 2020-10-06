@@ -16,9 +16,12 @@
   - Github
   - Google
   - Twitter
-  - LinkeDln
-  - FaceBook
- * To contribute to this repository read our contributions guidlines
+  - LinkedIn
+  - Facebook
+ * The path to .env file on Nodejs implementations is: /OAuth-Pro/nodejs/config, with the following env vars
+   - GOOGLE_CLIENT_ID
+   - GOOGLE_CLIENT_SECRET 
+ * To contribute to this repository read our contributions guidelines
  * To raise and issue or request a feature please go through our contribution practices first.
  ```
 # Contributing
